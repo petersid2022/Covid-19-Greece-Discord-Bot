@@ -16,6 +16,7 @@ import pandas as pd
 import time
 import schedule
 
+token = " your token here "
 
 client = discord.Client()
 
@@ -192,4 +193,4 @@ async def on_message(message, ctx=None):
 
 
 
-client.run('NzgwMzg1MDE0MzM2MTkyNTMy.X7uULg.EjgXt7HMo65vjgBg5764QuO2-2I')
+client.run(token)
